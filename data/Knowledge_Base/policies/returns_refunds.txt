@@ -1,0 +1,32 @@
+RANJITH'S TECH — RETURNS AND REFUNDS
+Document ID: RT-POL-RET-2.4
+Effective date: 2026-08-15
+
+STANDARD WINDOW
+Direct online purchases may be returned within 30 calendar days after confirmed delivery. Authorized physical-store purchases have a 15-day window unless the invoice gives a longer period. The request must be opened before 23:59 Asia/Kolkata on the final day.
+
+CONDITION AND CONTENTS
+A non-defective return must include the main product, supplied charger or cable, and serial-number label. Missing nonessential printed material does not block a return. A reasonable deduction may be made for a missing essential accessory.
+
+OPENED PRODUCTS
+An opened, non-defective laptop or wearable carries a 10% restocking fee. Audio devices used in or on the ear cannot be returned for preference or change-of-mind hygiene reasons. An unopened audio device remains returnable during the applicable window.
+
+The restocking fee and audio hygiene restriction do not apply when an authorized diagnosis confirms a manufacturing defect. The customer must complete the relevant troubleshooting procedure unless the reported symptom is unsafe or troubleshooting could worsen damage.
+
+DEAD ON ARRIVAL (DOA)
+A product that cannot power on or complete initial setup within 7 calendar days of delivery may qualify as DOA. After remote verification, DOA cases use the replacement process in RT-POL-SHIP-1.8. They should not be rejected merely because the packaging was opened.
+
+LATE EXCEPTIONS
+A return opened after the normal window may receive manager review when: the delivery date was recorded incorrectly; support instructed the customer in writing to wait; or a verified service outage prevented submission on the final day. Manager review is not automatic approval.
+
+REFUND TIMING
+Inspection normally takes 2–4 business days after receipt. Approved refunds are initiated to the original payment method within 2 business days. Banks may require a further 5–10 business days. Cash-on-delivery orders are refunded to a verified Indian bank account or UPI ID; staff must not request an OTP or PIN.
+
+CANCELLATIONS
+An order can be cancelled without charge before warehouse dispatch. After dispatch, it follows the return process. Refusing delivery is permitted, but outbound expedited-shipping fees are not refundable unless the wrong item was shipped.
+
+MARKETPLACE PURCHASES
+Marketplace refunds are governed and issued by the marketplace seller. Ranjith's Tech can diagnose the product and provide a service report but must not promise that a marketplace refund will be approved.
+
+PRECEDENCE
+Product-specific promotional return terms shown on the original invoice override this general document when they provide the customer a longer window. A shorter promotional term does not reduce statutory rights.

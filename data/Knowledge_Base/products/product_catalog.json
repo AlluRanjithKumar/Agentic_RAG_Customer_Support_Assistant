@@ -1,0 +1,74 @@
+{
+  "document_id": "RT-CAT-2026.09",
+  "effective_date": "2026-09-01",
+  "currency": "INR",
+  "products": [
+    {
+      "sku": "AB-A14-16-512",
+      "name": "AeroBook Air 14",
+      "family": "laptop",
+      "tier": "consumer",
+      "price": 64990,
+      "hardware_warranty_months": 12,
+      "battery_coverage_months": 12,
+      "included_accessories": ["65W USB-C charger", "USB-C cable"],
+      "special_rules": [
+        "Memory is soldered and is not user-upgradeable.",
+        "The USB-C charger may be used on either charging-capable port."
+      ]
+    },
+    {
+      "sku": "AB-P16-32-1T",
+      "name": "AeroBook Pro 16",
+      "family": "laptop",
+      "tier": "business",
+      "price": 119990,
+      "hardware_warranty_months": 24,
+      "battery_coverage_months": 12,
+      "included_accessories": ["100W USB-C charger", "USB-C cable", "protective sleeve"],
+      "special_rules": [
+        "The removable SSD access panel may be opened without voiding warranty.",
+        "Business-tier customers may qualify for advance replacement.",
+        "Only the 100W charger provides full performance under heavy load."
+      ]
+    },
+    {
+      "sku": "PULSE-BUDS2",
+      "name": "PulseBuds 2",
+      "family": "audio",
+      "tier": "consumer",
+      "price": 6990,
+      "hardware_warranty_months": 12,
+      "battery_coverage_months": 6,
+      "included_accessories": ["charging case", "USB-C cable", "three ear-tip sizes"],
+      "special_rules": [
+        "Used earbuds are hygiene-restricted for change-of-mind returns.",
+        "Each earbud and the charging case has a separate serial component."
+      ]
+    },
+    {
+      "sku": "ORBIT-W2-LTE",
+      "name": "Orbit Watch 2 LTE",
+      "family": "wearable",
+      "tier": "consumer",
+      "price": 18990,
+      "hardware_warranty_months": 12,
+      "battery_coverage_months": 12,
+      "included_accessories": ["magnetic charging puck", "sport band"],
+      "special_rules": [
+        "Water resistance is not permanent and may decrease with wear.",
+        "The warranty excludes damage from diving or high-pressure water.",
+        "LTE activation charges are controlled by the mobile carrier."
+      ]
+    }
+  ],
+  "plans": [
+    {
+      "name": "ProtectPlus",
+      "term_months": 24,
+      "accidental_incidents_per_12_months": 1,
+      "transferable": false,
+      "excludes": ["loss", "theft", "intentional damage"]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "dataset_version": "1.0",
+  "notes": "Reference answers are concise targets, not exact required wording.",
+  "cases": [
+    {
+      "id": "E001",
+      "question": "My AeroBook Air battery is at 56% health after 300 cycles and ten months. Is it covered?",
+      "expected_route": ["troubleshooting", "policy"],
+      "expected_sources": ["RT-TS-BAT-2.1", "RT-POL-WAR-3.2", "RT-CAT-2026.09"],
+      "reference_answer": "Potentially eligible after the approved diagnostic/calibration because capacity is below 60%, cycles are not over 500, and the claim is within the 12-month battery period.",
+      "must_not_claim": "Automatic approval without diagnosis"
+    },
+    {
+      "id": "E002",
+      "question": "My laptop battery is swollen. Should I calibrate it first?",
+      "expected_route": ["safety"],
+      "expected_sources": ["RT-TS-BAT-2.1", "RT-POL-WAR-3.2"],
+      "reference_answer": "No. Stop using and charging it and escalate immediately; do not calibrate or ship without instructions.",
+      "must_not_claim": "Continue charging"
+    },
+    {
+      "id": "E003",
+      "question": "I opened my PulseBuds but the left one is confirmed defective. Can hygiene rules block me?",
+      "expected_route": ["troubleshooting", "policy"],
+      "expected_sources": ["RT-TS-AUD-1.3", "RT-POL-RET-2.4"],
+      "reference_answer": "No. The hygiene restriction applies to change-of-mind returns, not remedies for an authorized confirmed defect.",
+      "must_not_claim": "All opened audio products are ineligible"
+    },
+    {
+      "id": "E004",
+      "question": "Can I demand a refund after the first repair offer under warranty?",
+      "expected_route": ["policy"],
+      "expected_sources": ["RT-POL-WAR-3.2"],
+      "reference_answer": "Not solely because repair was offered, except where consumer law requires otherwise. The company may repair, replace or refund under its resolution hierarchy.",
+      "must_not_claim": "Refund is always mandatory"
+    },
+    {
+      "id": "E005",
+      "question": "My AeroBook Pro loses charge during gaming with a 45W charger. Is the battery defective?",
+      "expected_route": ["troubleshooting"],
+      "expected_sources": ["RT-TS-BAT-2.1", "RT-CAT-2026.09"],
+      "reference_answer": "Not necessarily. The Pro requires its supplied 100W charger for full performance under load; retest with that charger.",
+      "must_not_claim": "Battery replacement is immediately required"
+    },
+    {
+      "id": "E006",
+      "question": "Tracking has not updated for 74 hours, but I am only one day past the estimated date. Can I get a refund?",
+      "expected_route": ["shipping"],
+      "expected_sources": ["RT-POL-SHIP-1.8"],
+      "reference_answer": "A carrier investigation should be opened after 72 hours without a scan. Reshipment or refund is offered after the shipment is five business days beyond the latest estimate and address verification is complete.",
+      "must_not_claim": "Immediate refund is guaranteed"
+    },
+    {
+      "id": "E007",
+      "question": "I bought from an authorized marketplace seller. Can Ranjith's Tech approve my marketplace refund?",
+      "expected_route": ["policy"],
+      "expected_sources": ["RT-POL-WAR-3.2", "RT-POL-RET-2.4"],
+      "reference_answer": "Ranjith's Tech can diagnose and provide warranty service or a report, but the marketplace seller controls the refund.",
+      "must_not_claim": "Ranjith's Tech guarantees marketplace refund approval"
+    },
+    {
+      "id": "E008",
+      "question": "Three repairs happened in 80 days, but each was for a different component. Must you replace my laptop?",
+      "expected_route": ["policy"],
+      "expected_sources": ["RT-POL-WAR-3.2"],
+      "reference_answer": "The three-repair senior review threshold applies only to the same hardware fault or component. These repairs do not automatically trigger it.",
+      "must_not_claim": "Any three repairs guarantee replacement"
+    },
+    {
+      "id": "E009",
+      "question": "What is the warranty on the RanjithPhone X?",
+      "expected_route": ["insufficient_information"],
+      "expected_sources": [],
+      "reference_answer": "The knowledge base has no product named RanjithPhone X, so the agent should not invent a warranty term.",
+      "must_not_claim": "A fabricated warranty duration"
+    },
+    {
+      "id": "E010",
+      "question": "Write a Java program to sort an array.",
+      "expected_route": ["out_of_scope"],
+      "expected_sources": [],
+      "reference_answer": "This request is outside the customer-support knowledge base.",
+      "must_not_claim": "That it searched company policy"
+    },
+    {
+      "id": "E011",
+      "question": "Support asked for my UPI PIN to process a COD refund. Should I share it?",
+      "expected_route": ["fraud_safety", "policy"],
+      "expected_sources": ["RT-FAQ-4.0", "RT-POL-RET-2.4"],
+      "reference_answer": "No. Staff must never request a UPI PIN or OTP. Stop the interaction and contact official support.",
+      "must_not_claim": "Sharing a PIN is part of verification"
+    },
+    {
+      "id": "E012",
+      "question": "Does opening the SSD panel void my AeroBook Pro warranty?",
+      "expected_route": ["faq", "policy"],
+      "expected_sources": ["RT-FAQ-4.0", "RT-POL-WAR-3.2", "RT-CAT-2026.09"],
+      "reference_answer": "Opening the removable SSD access panel alone does not void coverage, but damage caused during the upgrade is excluded.",
+      "must_not_claim": "All upgrade-related damage is covered"
+    }
+  ]
+}

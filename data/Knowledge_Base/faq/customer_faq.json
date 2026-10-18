@@ -1,0 +1,42 @@
+{
+  "document_id": "RT-FAQ-4.0",
+  "effective_date": "2026-09-10",
+  "items": [
+    {
+      "id": "FAQ-001",
+      "question": "Where can I find the serial number?",
+      "answer": "For AeroBook laptops, use Settings > System > About or read the base label. For PulseBuds 2, use the companion app; the case and earbuds have separate serial components. Never post a full serial number in a public forum.",
+      "tags": ["serial-number", "privacy"]
+    },
+    {
+      "id": "FAQ-002",
+      "question": "Can support ask for my OTP or UPI PIN?",
+      "answer": "No. Ranjith's Tech staff must never request an OTP, UPI PIN, card PIN, CVV or account password. End the interaction and contact official support if anyone asks for these.",
+      "tags": ["payments", "fraud", "safety"]
+    },
+    {
+      "id": "FAQ-003",
+      "question": "What are support hours?",
+      "answer": "Chat support operates daily from 08:00 to 22:00 IST. Phone support operates Monday through Saturday from 09:00 to 18:00 IST, excluding national holidays. Safety reports can be submitted through chat at any time and are queued with priority.",
+      "tags": ["contact", "hours"]
+    },
+    {
+      "id": "FAQ-004",
+      "question": "Can I upgrade my AeroBook?",
+      "answer": "The AeroBook Air 14 memory is soldered. The AeroBook Pro 16 SSD access panel is removable. Opening that panel alone does not void warranty, but damage caused during an upgrade is excluded.",
+      "tags": ["laptop", "upgrade", "warranty"]
+    },
+    {
+      "id": "FAQ-005",
+      "question": "Do you recover lost files during repair?",
+      "answer": "No data recovery is promised. Customers should back up data before service when safely possible. Service may erase or replace storage, and technicians should not ask for unrelated personal files.",
+      "tags": ["repair", "privacy", "data"]
+    },
+    {
+      "id": "FAQ-006",
+      "question": "Why is my refund not visible yet?",
+      "answer": "After inspection, an approved refund is normally initiated within two business days. The bank may then take another 5–10 business days. Marketplace refunds must be traced through the marketplace seller.",
+      "tags": ["refund", "payment"]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+langchain-core
+langchain-classic
+langchain-community
+langchain-text-splitters
+langchain-huggingface
+langchain-chroma
+sentence-transformers
+chromadb
+rank-bm25
+unstructured
+markdown
+jq
+langgraph
+langchain-google-genai
+python-dotenv
+langgraph-checkpoint-sqlite
+streamlit
