@@ -7,5 +7,4 @@ checkpoints.sqlite3
 checkpoints.sqlite3-shm
 checkpoints.sqlite3-wal
 /app.py
-/README.md
 /docs/architecture.svg
